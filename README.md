@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://mscholdinbr.group"><img src="https://img.shields.io/badge/MSC_Consultoria-6C63FF?style=for-the-badge&logo=globe&logoColor=white"/></a>
   <a href="https://huggingface.co/Finish-him"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
-  <a href="https://linkedin.com/in/moises-costa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/moises-costa-rj"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
 ---
