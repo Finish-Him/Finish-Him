@@ -31,8 +31,8 @@ Current operating model:
 | Project | Description | Stack |
 |---|---|---|
 | [**prometheus**](https://github.com/Finish-Him/prometheus) | Multi-agent AI orchestration framework | Python · LangGraph |
-| [**msc-prometheus**](https://github.com/Finish-Him/msc-prometheus) | Public mirror/monorepo Prometheus MSC | AI Agents |
-| [**msc-arquimedes**](https://github.com/Finish-Him/msc-arquimedes) | Public mirror/monorepo Arquimedes MSC | TypeScript |
+| [**MSC Prometheus**](https://github.com/Msc-Consultoriarj-org/msc-prometheus) | Private MSC monorepo for Prometheus variants | AI Agents |
+| [**MSC Arquimedes**](https://github.com/Msc-Consultoriarj-org/msc-arquimedes) | Private MSC monorepo for Arquimedes tooling | TypeScript |
 | [**hermes-agent**](https://github.com/Finish-Him/hermes-agent) | Adaptive personal agent | Python |
 | [**paperclip**](https://github.com/Finish-Him/paperclip) | Orchestration for zero-human companies | TypeScript |
 | [**pi-mono**](https://github.com/Finish-Him/pi-mono) | AI coding agent toolkit, unified LLM API, TUI/web UI | TypeScript |
