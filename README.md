@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Moises%20Costa&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Senior%20AI%20%2F%20LLM%20Engineer%20%7C%20Python%20Backend%20Developer&descAlignY=58&descSize=18&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Moises%20Costa&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Systems%20%7C%20Automation&descAlignY=58&descSize=18&animation=fadeIn" />
 </div>
 
 <div align="center">
@@ -14,9 +14,13 @@
 
 ## About
 
-Senior Python Backend Developer with **6+ years** in production systems and **3 years** in Generative AI. I build **LLM-powered systems** for document understanding, multi-agent orchestration, and data extraction at scale.
+AI Engineer focused on **LLM systems, multi-agent orchestration, document intelligence and automation**. I build production-oriented tools with Python, TypeScript, LangGraph, FastAPI, React/Next.js and cloud/devops workflows.
 
-Currently **Deputy Coordinator at DETRAN-RJ**, leading a dev team and managing AI agents serving **4,000+ employees daily**.
+Current operating model:
+
+- **Finish-Him** — personal lab, open source, portfolio and experiments.
+- **Msc-Consultoriarj-org** — business assets, consulting products and demos.
+- **Detran-RJ** — institutional systems, governance, SEI, patrimônio and internal AI.
 
 ---
 
@@ -25,59 +29,51 @@ Currently **Deputy Coordinator at DETRAN-RJ**, leading a dev team and managing A
 ### AI & Agents
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [**hermes-agent**](https://github.com/Finish-Him/hermes-agent) | The agent that grows with you (contributor) | Python |
-| [**paperclip**](https://github.com/Finish-Him/paperclip) | Zero-human company orchestration (contributor) | TypeScript |
+|---|---|---|
 | [**prometheus**](https://github.com/Finish-Him/prometheus) | Multi-agent AI orchestration framework | Python · LangGraph |
-| [**agents-demo**](https://github.com/Finish-Him/agents-demo) | 3 production-ready LangGraph agents | Python · FastAPI |
-| [**telecom-ai-platform**](https://github.com/Finish-Him/telecom-ai-platform) | AI platform for telecoms — didactic project | Python · LangGraph · MCP |
-| [**dota-ml-analysis**](https://github.com/Finish-Him/dota-ml-analysis) | Autonomous Dota 2 esports betting agent | Python · ML |
+| [**msc-prometheus**](https://github.com/Finish-Him/msc-prometheus) | Public mirror/monorepo Prometheus MSC | AI Agents |
+| [**msc-arquimedes**](https://github.com/Finish-Him/msc-arquimedes) | Public mirror/monorepo Arquimedes MSC | TypeScript |
+| [**hermes-agent**](https://github.com/Finish-Him/hermes-agent) | Adaptive personal agent | Python |
+| [**paperclip**](https://github.com/Finish-Him/paperclip) | Orchestration for zero-human companies | TypeScript |
+| [**pi-mono**](https://github.com/Finish-Him/pi-mono) | AI coding agent toolkit, unified LLM API, TUI/web UI | TypeScript |
 
 ### Products & Business
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [**baterias-rj**](https://github.com/Finish-Him/baterias-rj) | Battery sales platform (meta CPA ≤ R$10) | Next.js 15 · Supabase · Turborepo |
-| [**youtube_summarizer**](https://github.com/Finish-Him/youtube_summarizer) | AI video summarizer | Next.js · DeepSeek V3 · OpenRouter |
-| [**festeja-kids-2**](https://github.com/Finish-Him/festeja-kids-2) | Event management for children's parties | TypeScript · React |
-| [**recanto-delivery**](https://github.com/Finish-Him/recanto-delivery) | Delivery platform for Recanto do Açaí | TypeScript · React |
-| [**lawyer-office**](https://github.com/Finish-Him/lawyer-office) | AI Voice Receptionist (US market) | TypeScript · LLM |
+|---|---|---|
+| [**bateria-rj**](https://github.com/Finish-Him/bateria-rj) | Delivery de baterias automotivas no RJ | React · Node · Supabase |
+| [**baterias-rj**](https://github.com/Finish-Him/baterias-rj) | Plataforma privada de venda/instalação de baterias | Next.js · Supabase |
+| [**lawyer-office**](https://github.com/Finish-Him/lawyer-office) | AI voice receptionist for US professional services | TypeScript · LLM |
+| [**infra-vps**](https://github.com/Finish-Him/infra-vps) | Infrastructure-as-code for VPS and deployments | Docker · Nginx |
 
-### Open-Source Tools
+### Open Source / Tools
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [**wave2md**](https://github.com/Finish-Him/wave2md) | Audio → structured Markdown converter | TypeScript |
+|---|---|---|
 | [**Backlog.md**](https://github.com/Finish-Him/Backlog.md) | Human-AI collaborative project management | TypeScript |
 | [**opendataloader-pdf**](https://github.com/Finish-Him/opendataloader-pdf) | PDF parser for AI-ready data extraction | Java |
-
-### Learning & Career
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**job-interview-prep**](https://github.com/Finish-Him/job-interview-prep) | Interview preparation platform | HTML |
-| [**estudo-diario**](https://github.com/Finish-Him/estudo-diario) | Automated daily study (EN prep) — Opus 4.7 cron | Python |
-| [**portfolio**](https://github.com/Finish-Him/portfolio) | AI math tutor — chatbot, avatar & Manim | TypeScript · FastAPI |
+| [**dotfiles**](https://github.com/Finish-Him/dotfiles) | Personal shell/dev environment setup | PowerShell |
 
 ---
 
 ## Organizations
 
-| Org | Role | Focus |
-|-----|------|-------|
-| [@Detran-RJ](https://github.com/Detran-RJ) | Deputy Coordinator | AI agents, patrimônio systems, LMS |
-| [@Msc-Consultoriarj-org](https://github.com/Msc-Consultoriarj-org) | Founder | Web consulting, corporate academy |
+| Org | Focus |
+|---|---|
+| [@Msc-Consultoriarj-org](https://github.com/Msc-Consultoriarj-org) | Consulting, products, AI demos, automation |
+| [@Detran-RJ](https://github.com/Detran-RJ) | Institutional systems, DTIC, SEI, patrimônio, AI governance |
+| [MSC-Company on Hugging Face](https://huggingface.co/MSC-Company) | Private AI demos and Spaces |
 
 ---
 
 ## Tech Stack
 
-```
-AI/ML:       LangGraph · LangChain · Claude API · RAG · Qdrant · MCP
-Backend:     FastAPI · NestJS · tRPC · Python · TypeScript
+```text
+AI/ML:       LangGraph · LangChain · RAG · Qdrant · MCP · LLM APIs
+Backend:     FastAPI · Express · tRPC · Python · TypeScript
 Frontend:    React · Next.js · Tailwind CSS · Vite
-Database:    PostgreSQL · Supabase · Prisma · Drizzle · SQLite
-Infra:       Docker · GitHub Actions · VPS · Caddy · Nginx
+Database:    PostgreSQL · Supabase · Drizzle · SQLite · MySQL
+Infra:       Docker · GitHub Actions · Vercel · VPS · Nginx
 ```
 
 ---
@@ -86,7 +82,7 @@ Infra:       Docker · GitHub Actions · VPS · Caddy · Nginx
 
 **Open to Senior AI / LLM Engineer roles globally** 🌍
 
-*Rio de Janeiro, Brazil* 🇧🇷
+<sub>Rio de Janeiro, Brazil 🇧🇷</sub>
 
 </div>
 
