@@ -53,6 +53,7 @@ Current operating model:
 | [**Backlog.md**](https://github.com/Finish-Him/Backlog.md) | Human-AI collaborative project management | TypeScript |
 | [**opendataloader-pdf**](https://github.com/Finish-Him/opendataloader-pdf) | PDF parser for AI-ready data extraction | Java |
 | [**dotfiles**](https://github.com/Finish-Him/dotfiles) | Personal shell/dev environment setup | PowerShell |
+| [**knowledge-base**](https://github.com/Finish-Him/knowledge-base) | Private Obsidian vault and future personal wiki | Markdown |
 
 ---
 
