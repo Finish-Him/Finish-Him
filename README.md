@@ -30,30 +30,38 @@ Current operating model:
 
 | Project | Description | Stack |
 |---|---|---|
+| [**detran-ai**](https://github.com/Detran-RJ/detran-ai) | Multi-agent AI for government (SEI + patrimônio) | Python · LangGraph · FastAPI |
+| [**dota-ml-analysis**](https://github.com/Finish-Him/dota-ml-analysis) | Autonomous esports betting agent | Python · ML |
 | [**prometheus**](https://github.com/Finish-Him/prometheus) | Multi-agent AI orchestration framework | Python · LangGraph |
-| [**MSC Prometheus**](https://github.com/Msc-Consultoriarj-org/msc-prometheus) | Private MSC monorepo for Prometheus variants | AI Agents |
-| [**MSC Arquimedes**](https://github.com/Msc-Consultoriarj-org/msc-arquimedes) | Private MSC monorepo for Arquimedes tooling | TypeScript |
 | [**hermes-agent**](https://github.com/Finish-Him/hermes-agent) | Adaptive personal agent | Python |
 | [**paperclip**](https://github.com/Finish-Him/paperclip) | Orchestration for zero-human companies | TypeScript |
 | [**pi-mono**](https://github.com/Finish-Him/pi-mono) | AI coding agent toolkit, unified LLM API, TUI/web UI | TypeScript |
 
-### Products & Business
+### Products
 
 | Project | Description | Stack |
 |---|---|---|
+| [**baterias-rj**](https://github.com/Finish-Him/baterias-rj) | Battery sales & installation platform RJ | Next.js · Supabase |
 | [**bateria-rj**](https://github.com/Finish-Him/bateria-rj) | Delivery de baterias automotivas no RJ | React · Node · Supabase |
-| [**baterias-rj**](https://github.com/Finish-Him/baterias-rj) | Plataforma privada de venda/instalação de baterias | Next.js · Supabase |
 | [**lawyer-office**](https://github.com/Finish-Him/lawyer-office) | AI voice receptionist for US professional services | TypeScript · LLM |
-| [**infra-vps**](https://github.com/Finish-Him/infra-vps) | Infrastructure-as-code for VPS and deployments | Docker · Nginx |
+| [**youtube_summarizer**](https://github.com/Finish-Him/youtube_summarizer) | AI video summarizer with DeepSeek/Gemini | Next.js · TypeScript |
 
-### Open Source / Tools
+### Tools
 
 | Project | Description | Stack |
 |---|---|---|
+| [**wave2md**](https://github.com/Finish-Him/wave2md) | Audio-to-Markdown converter | Python |
 | [**Backlog.md**](https://github.com/Finish-Him/Backlog.md) | Human-AI collaborative project management | TypeScript |
 | [**opendataloader-pdf**](https://github.com/Finish-Him/opendataloader-pdf) | PDF parser for AI-ready data extraction | Java |
 | [**dotfiles**](https://github.com/Finish-Him/dotfiles) | Personal shell/dev environment setup | PowerShell |
-| [**knowledge-base**](https://github.com/Finish-Him/knowledge-base) | Private Obsidian vault and future personal wiki | Markdown |
+| [**knowledge-base**](https://github.com/Finish-Him/knowledge-base) | Personal wiki and Obsidian vault | Markdown |
+
+### Learning
+
+| Project | Description | Stack |
+|---|---|---|
+| [**estudo-diario**](https://github.com/Finish-Him/estudo-diario) | Daily automated study tracker (EN prep) | Python |
+| [**job-interview-prep**](https://github.com/Finish-Him/job-interview-prep) | Interview preparation materials | — |
 
 ---
 
@@ -61,8 +69,8 @@ Current operating model:
 
 | Org | Focus |
 |---|---|
-| [@Msc-Consultoriarj-org](https://github.com/Msc-Consultoriarj-org) | Consulting, products, AI demos, automation |
 | [@Detran-RJ](https://github.com/Detran-RJ) | Institutional systems, DTIC, SEI, patrimônio, AI governance |
+| [@Msc-Consultoriarj-org](https://github.com/Msc-Consultoriarj-org) | Consulting, products, AI demos, automation |
 | [MSC-Company on Hugging Face](https://huggingface.co/MSC-Company) | Private AI demos and Spaces |
 
 ---
