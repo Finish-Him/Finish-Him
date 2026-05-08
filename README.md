@@ -1,98 +1,116 @@
-<!-- Header Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Moises%20Costa&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Systems%20%7C%20Automation&descAlignY=58&descSize=18&animation=fadeIn" />
-</div>
+# Hi, I'm Moises Costa 👋
+
+> AI Engineer | Knowledge Systems | Full Stack Developer
 
 <div align="center">
-  <a href="https://linkedin.com/in/moises-costa-rj"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://huggingface.co/Finish-him"><img src="https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge&logoColor=black" /></a>
-  <a href="https://github.com/Finish-Him"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Finish-Him&label=Views&color=58A6FF&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/FAISS-0096D6?style=for-the-badge&logo=meta&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white"/>
 </div>
 
 ---
 
-## About
+## 🧠 About Me
 
-AI Engineer focused on **LLM systems, multi-agent orchestration, document intelligence and automation**. I build production-oriented tools with Python, TypeScript, LangGraph, FastAPI, React/Next.js and cloud/devops workflows.
+I build intelligent systems that bridge human knowledge and artificial intelligence. Currently focused on:
 
-Current operating model:
-
-- **Finish-Him** — personal lab, open source, portfolio and experiments.
-- **Msc-Consultoriarj-org** — business assets, consulting products and demos.
-- **Detran-RJ** — institutional systems, governance, SEI, patrimônio and internal AI.
-
----
-
-## Active Projects
-
-### AI & Agents
-
-| Project | Description | Stack |
-|---|---|---|
-| [**detran-ai**](https://github.com/Detran-RJ/detran-ai) | Multi-agent AI for government (SEI + patrimônio) | Python · LangGraph · FastAPI |
-| [**dota-ml-analysis**](https://github.com/Finish-Him/dota-ml-analysis) | Autonomous esports betting agent | Python · ML |
-| [**prometheus**](https://github.com/Finish-Him/prometheus) | Multi-agent AI orchestration framework | Python · LangGraph |
-| [**hermes-agent**](https://github.com/Finish-Him/hermes-agent) | Adaptive personal agent | Python |
-| [**paperclip**](https://github.com/Finish-Him/paperclip) | Orchestration for zero-human companies | TypeScript |
-| [**pi-mono**](https://github.com/Finish-Him/pi-mono) | AI coding agent toolkit, unified LLM API, TUI/web UI | TypeScript |
-
-### Products
-
-| Project | Description | Stack |
-|---|---|---|
-| [**baterias-rj**](https://github.com/Finish-Him/baterias-rj) | Battery sales & installation platform RJ | Next.js · Supabase |
-| [**bateria-rj**](https://github.com/Finish-Him/bateria-rj) | Delivery de baterias automotivas no RJ | React · Node · Supabase |
-| [**lawyer-office**](https://github.com/Finish-Him/lawyer-office) | AI voice receptionist for US professional services | TypeScript · LLM |
-| [**youtube_summarizer**](https://github.com/Finish-Him/youtube_summarizer) | AI video summarizer with DeepSeek/Gemini | Next.js · TypeScript |
-
-### Tools
-
-| Project | Description | Stack |
-|---|---|---|
-| [**wave2md**](https://github.com/Finish-Him/wave2md) | Audio-to-Markdown converter | Python |
-| [**Backlog.md**](https://github.com/Finish-Him/Backlog.md) | Human-AI collaborative project management | TypeScript |
-| [**opendataloader-pdf**](https://github.com/Finish-Him/opendataloader-pdf) | PDF parser for AI-ready data extraction | Java |
-| [**dotfiles**](https://github.com/Finish-Him/dotfiles) | Personal shell/dev environment setup | PowerShell |
-| [**knowledge-base**](https://github.com/Finish-Him/knowledge-base) | Personal wiki and Obsidian vault | Markdown |
-
-### Learning
-
-| Project | Description | Stack |
-|---|---|---|
-| [**estudo-diario**](https://github.com/Finish-Him/estudo-diario) | Daily automated study tracker (EN prep) | Python |
-| [**job-interview-prep**](https://github.com/Finish-Him/job-interview-prep) | Interview preparation materials | — |
+- **Knowledge Retrieval Systems** (RAG, vector search, semantic embeddings)
+- **AI Agents & Orchestration** (multi-agent systems, task routing)
+- **LLM Fine-tuning & Deployment** (local models, quantization, inference optimization)
+- **Full Stack Applications** (React, TypeScript, Python backends)
 
 ---
 
-## Organizations
+## 🚀 Active Repositories
 
-| Org | Focus |
-|---|---|
-| [@Detran-RJ](https://github.com/Detran-RJ) | Institutional systems, DTIC, SEI, patrimônio, AI governance |
-| [@Msc-Consultoriarj-org](https://github.com/Msc-Consultoriarj-org) | Consulting, products, AI demos, automation |
-| [MSC-Company on Hugging Face](https://huggingface.co/MSC-Company) | Private AI demos and Spaces |
+### [`zeus-knowledge-brain`](https://github.com/Finish-Him/zeus-knowledge-brain) ⭐
+**Zeus v2.0 — Knowledge Brain with Hugging Face + FAISS**
 
----
+A semantic knowledge retrieval system powered by:
+- 🦙 HuggingFace Transformers (local embeddings)
+- 🔍 FAISS vector search
+- 📝 Obsidian vault ingestion
+- 🤖 Pi Coding Agent integration
+- 📊 Knowledge graph visualization
+- 🌐 Web UI for querying
 
-## Tech Stack
-
-```text
-AI/ML:       LangGraph · LangChain · RAG · Qdrant · MCP · LLM APIs
-Backend:     FastAPI · Express · tRPC · Python · TypeScript
-Frontend:    React · Next.js · Tailwind CSS · Vite
-Database:    PostgreSQL · Supabase · Drizzle · SQLite · MySQL
-Infra:       Docker · GitHub Actions · Vercel · VPS · Nginx
+```bash
+# Quick start
+pip install -r requirements.txt
+python brain.py --ingest "your-vault/"
+python web_ui.py
 ```
 
 ---
 
+## 🏢 Organizations
+
 <div align="center">
 
-**Open to Senior AI / LLM Engineer roles globally** 🌍
-
-<sub>Rio de Janeiro, Brazil 🇧🇷</sub>
+| Organization | Role | Focus |
+|-------------|------|-------|
+| [**Msc-Consultoriarj-org**](https://github.com/Msc-Consultoriarj-org) | Founder | Corporate training platform, AI solutions |
+| [**Detran-RJ**](https://github.com/Detran-RJ) | Tech Lead | Government systems, SEI pipeline, contract management |
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" />
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+```
+Python • TypeScript • JavaScript • SQL • Bash
+```
+
+**AI/ML**
+```
+HuggingFace Transformers • FAISS • PyTorch • LangChain
+OpenAI API • Ollama • Sentence-Transformers
+```
+
+**Web & Cloud**
+```
+React • Next.js • Node.js • FastAPI • Docker
+AWS • Azure • Vercel • HuggingFace Spaces
+```
+
+**Data & Knowledge**
+```
+PostgreSQL • MongoDB • ChromaDB • FAISS
+Obsidian • Markdown • YAML • JSON
+```
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Finish-Him&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Finish-Him&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+</div>
+
+---
+
+## 🔗 Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Finish-Him)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Finish-Him)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/moisescosta)
+
+</div>
+
+---
+
+<div align="center">
+  
+  *"Transforming knowledge into intelligence, one vector at a time."*
+  
+  <sub>Last updated: May 2026</sub>
+
+</div>
