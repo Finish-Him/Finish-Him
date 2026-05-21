@@ -5,10 +5,10 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/FAISS-0096D6?style=for-the-badge&logo=meta&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </div>
 
 ---
@@ -17,32 +17,42 @@
 
 I build intelligent systems that bridge human knowledge and artificial intelligence. Currently focused on:
 
-- **Knowledge Retrieval Systems** (RAG, vector search, semantic embeddings)
-- **AI Agents & Orchestration** (multi-agent systems, task routing)
-- **LLM Fine-tuning & Deployment** (local models, quantization, inference optimization)
-- **Full Stack Applications** (React, TypeScript, Python backends)
+- **AI Agents & Orchestration** (multi-agent systems, task routing, Pi Coding Agent)
+- **Full Stack Applications** (Next.js, TypeScript, React, Node.js)
+- **Infrastructure & DevOps** (Tailscale mesh, Docker, PM2, PostgreSQL)
+- **LLM Integration** (OpenAI, Gemini, DeepSeek, OpenRouter, Claude)
 
 ---
 
-## 🚀 Active Repositories
+## 🚀 Active Projects
 
-### [`zeus-knowledge-brain`](https://github.com/Finish-Him/zeus-knowledge-brain) ⭐
-**Zeus v2.0 — Knowledge Brain with Hugging Face + FAISS**
+### [MSC Academy Platform](https://github.com/Msc-Company-Org/msc-academy-platform) ⭐
+**Plataforma educacional interativa com tutor de IA para concursos públicos e inglês**
+- 🧑‍🏫 AI Tutor integrado (multi-modelo)
+- 📊 Dashboard personalizado de estudos
+- 🔐 Autenticação Google OAuth
+- 🗄️ PostgreSQL + TiDB Cloud
+- 🚀 Deploy na Vercel
 
-A semantic knowledge retrieval system powered by:
-- 🦙 HuggingFace Transformers (local embeddings)
-- 🔍 FAISS vector search
-- 📝 Obsidian vault ingestion
-- 🤖 Pi Coding Agent integration
-- 📊 Knowledge graph visualization
-- 🌐 Web UI for querying
+### [Portal Detran-RJ](https://github.com/Detran-RJ/portal-detran) ⭐
+**Portal Unificado — Next.js 15 + Turborepo monorepo**
+- 📋 Gestão de contratos e SEI pipeline
+- 🏗️ Monorepo com apps/packages/services
+- 🐳 PM2 + Docker em produção
+- 🔗 Tailscale mesh networking
 
-```bash
-# Quick start
-pip install -r requirements.txt
-python brain.py --ingest "your-vault/"
-python web_ui.py
-```
+### [MSC Infra Control](https://github.com/Finish-Him/msc-infra-control) 🔧
+**Infraestrutura completa — documentação, scripts e configurações centralizadas**
+- 🖥️ 3 servidores gerenciados (GCP + 2x Hostinger)
+- 🔑 16+ APIs verificadas e integradas
+- 🌐 VPN mesh com Tailscale
+- 📋 Scripts de automação e deploy
+
+### [Estrategia-Concurso](https://github.com/Finish-Him/Estrategia-Concurso) 📚
+**Material de estudo Detran-RJ + Nível Superior — PDFs convertidos para Markdown**
+- 📖 15+ matérias organizadas
+- 📝 Curso regular + Passo Estratégico
+- 🤖 Em breve: quiz IA e flashcards inteligentes
 
 ---
 
@@ -52,8 +62,8 @@ python web_ui.py
 
 | Organization | Role | Focus |
 |-------------|------|-------|
-| [**Msc-Consultoriarj-org**](https://github.com/Msc-Consultoriarj-org) | Founder | Corporate training platform, AI solutions |
-| [**Detran-RJ**](https://github.com/Detran-RJ) | Tech Lead | Government systems, SEI pipeline, contract management |
+| [**Msc-Company-Org**](https://github.com/Msc-Company-Org) | Founder | MSC Academy — Plataforma educacional com IA |
+| [**Detran-RJ**](https://github.com/Detran-RJ) | Tech Lead | Portal Unificado, SEI pipeline, contratos |
 
 </div>
 
@@ -68,20 +78,21 @@ Python • TypeScript • JavaScript • SQL • Bash
 
 **AI/ML**
 ```
-HuggingFace Transformers • FAISS • PyTorch • LangChain
-OpenAI API • Ollama • Sentence-Transformers
+OpenAI API • Google Gemini • DeepSeek • Anthropic Claude
+OpenRouter (358 modelos) • HuggingFace Transformers
+Pi Coding Agent • FAISS • LangChain
 ```
 
 **Web & Cloud**
 ```
-React • Next.js • Node.js • FastAPI • Docker
-AWS • Azure • Vercel • HuggingFace Spaces
+Next.js 15 • React • Node.js • FastAPI • PM2 • Docker
+Vercel • GCP • Hostinger • HuggingFace Spaces
 ```
 
-**Data & Knowledge**
+**Data & Infrastructure**
 ```
-PostgreSQL • MongoDB • ChromaDB • FAISS
-Obsidian • Markdown • YAML • JSON
+PostgreSQL • MySQL (TiDB) • Neon Serverless
+Tailscale Mesh • Nginx • systemd
 ```
 
 ---
@@ -109,7 +120,7 @@ Obsidian • Markdown • YAML • JSON
 
 <div align="center">
   
-  *"Transforming knowledge into intelligence, one vector at a time."*
+  *"Building the bridge between knowledge and intelligence."*
   
   <sub>Last updated: May 2026</sub>
 
