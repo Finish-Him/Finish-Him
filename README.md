@@ -16,7 +16,7 @@ Agentes autonomos de IA com memoria, ferramentas e deploy em producao. Stack: **
 |---------|-----------|-------|
 | **[Atlas v2](https://github.com/Finish-Him/atlas-v2)** | Agente RAG com WhatsApp, Vercel UI e API propria | TypeScript, Evolution API, pgvector |
 | **[Memory Bus](https://github.com/Finish-Him/memory-bus)** | Camada de memoria semantica compartilhada para AI agents | FastAPI, pgvector, hybrid search |
-| **[MSC Academy](https://github.com/Msc-Company-Org/msc-academy-platform)** | Plataforma educacional com tutor IA | Next.js 15, AI tutoring |
+| **[MSC Academy](https://github.com/Msc-Company-Org/Academy)** | Plataforma educacional com tutor IA | Next.js 15, AI tutoring |
 | **[Portal Detran-RJ](https://github.com/Detran-RJ/portal-detran)** | Portal unificado da infraestrutura de TI | Next.js 15, shadcn/ui |
 | **[Pi](https://github.com/Finish-Him/pi)** | AI agent toolkit: CLI, LLM API unificada, TUI, Web UI | TypeScript, vLLM |
 
