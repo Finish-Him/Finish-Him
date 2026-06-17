@@ -1,21 +1,673 @@
+# =============================================================================
+#  .gitignore — Gerado por gitignore-bootstrap.sh
+#  Data: 2026-06-17
+#  Stacks: node-typescript python php-laravel go rust infra-terraform-k8s
+#
+#  NOTA: Este arquivo combina o global + templates por stack.
+#  O global já é aplicado via git config --global core.excludesFile
+#  então as seções 1-24 (segredos, OS, IDEs) são duplicação proposital
+#  para que o repo funcione standalone em clones de outras pessoas.
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+#  Stack: node-typescript
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: Node.js + TypeScript
+#  Use em projetos com package.json + tsconfig.json
+#  Stack: React, Next.js, Vite, Express, NestJS, tRPC, etc.
+# =============================================================================
+
+# Core
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.yarn-integrity
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+.next/
+out/
+.nuxt/
+.svelte-kit/
+.svelte/
+.turbo/
+.vercel/
+.netlify/
+.cloudflare/
+.firebase/hosting.*
+.vercel/
+
+# Framework-specific
+## Next.js
+.next/
+next-env.d.ts
+## Vite
+dist/
+dist-ssr/
+*.local
+## Nuxt
+.nuxt/
+.nitro/
+.cache/
+## SvelteKit
+.svelte-kit/
+## Astro
+.astro/
+## Remix
+.cache/
+build/
+public/build/
+## Gatsby
+.cache/
+public/
+
+# TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+.tsbuildinfo.json
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+jest-cache/
+junit.xml
+test-report.xml
+playwright-report/
+playwright/.cache/
+cypress/videos/
+cypress/screenshots/
+.vitest/
+__snapshots__/
+
+# Linters / Formatters
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache/
+.cache-loader/
+
+# Environment / Secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.sample
+!.env.template
+**/.envrc
+
+# Package managers
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Bundle analyzers
+*.stats.json
+bundle-report.html
+report.html
+
+# Workspaces / Monorepo
+.turbo/
+nx/cache
+lerna.json
+
+# Edge / Workers
+.wrangler/
+.dev.vars
+
+# Native
+*.node
+*.dylib
+*.so
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+.idea/
+*.log
+.tmp/
+.cache/
+.history/
+
+# -----------------------------------------------------------------------------
+#  Stack: python
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: Python
+#  Use em projetos com pyproject.toml, requirements.txt, setup.py
+#  Stack: Django, FastAPI, Flask, ML/DS, scripts
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environments / secrets
+.env
+.env.local
+.env.*.local
+.envrc
+.python-version
+!.env.example
+!.env.sample
+**/secrets/
+**/secrets.*
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Testing / Coverage
+.coverage
+.coverage.*
+coverage.xml
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache
+.pytest_cache/
+pytestdebug.log
+.pyre/
+.pytype/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+nosetests.xml
+test-report.xml
+junit.xml
+.pytest_debug.log
+report.xml
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+celerybeat-schedule
+celerybeat.pid
+*.mo
+*.pot
+
+# Flask
+instance/
+.webassets-cache
+.env
+*.pyc
+__pycache__/
+
+# FastAPI / Uvicorn
+*.pid
+*.sock
+*.log
+
+# Sphinx documentation
+docs/_build/
+docs/build/
+docs/source/_build/
+
+# PyBuilder
+target/
+
+# Poetry
+poetry.lock
+.pytest_cache/
+
+# UV
+uv.lock
+.uv-cache/
+
+# Ruff / Black / isort
+.ruff_cache/
+.black_cache/
+.isort_cache/
+
+# Data / ML artifacts
+data/raw/
+data/processed/
+data/interim/
+data/external/
+mlruns/
+wandb/
+runs/
+checkpoints/
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+*.feather
+*.joblib
+*.sav
+model_artifacts/
+.fastembed_cache/
+local_cache/
+.cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.mdb
+*.accdb
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+.history/
+
+# Misc
+*.log
+*.pid
+*.seed
+*.pid.lock
+.tmp/
+.temp/
+tmp/
+temp/
+
+# -----------------------------------------------------------------------------
+#  Stack: php-laravel
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: PHP / Laravel / WordPress
+#  Use em projetos com composer.json
+# =============================================================================
+
+# Composer
+/vendor/
+/node_modules/
+composer.phar
+
+# Laravel
+/bootstrap/cache/
+/public/storage
+/storage/*.key
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.phpunit.cache
+/public/storage
+/public/build
+_ide_helper.php
+_ide_helper_models.php
+.DS_Store
+.phpstorm.meta.php
+.phpunit.cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# Lumen
+.lock
+.env
+
+# WordPress
+/wp-config.php
+/wp-config-local.php
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/debug.log
+/wp-content/w3tc-config/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/themes/*/node_modules/
+/wp-content/plugins/*/node_modules/
+/wp-content/mu-plugins/
+*.log
+*.sql
+*.sql.gz
+.svn/
+.wpcache/
+.w3tc/
+.wp-rocket-config/
+
+# Symfony
+/var/
+/vendor/
+/bin/
+/composer.lock
+.env
+.env.local
+.env.*.local
+/app/config/parameters.yml
+/app/config/parameters.ini
+/app/logs/
+/app/cache/
+/web/bundles/
+/web/uploads/
+/build/
+/public/bundles/
+
+# CakePHP
+/tmp/
+/logs/
+/vendor/
+/plugins/*/tmp/
+/plugins/*/logs/
+
+# CodeIgniter
+/application/cache/
+/application/logs/
+/vendor/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.sample
+**/secrets/
+**/secrets.*
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+.history/
+
+# -----------------------------------------------------------------------------
+#  Stack: go
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: Go
+#  Use em projetos com go.mod
+# =============================================================================
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.so
+*.test
+*.out
+*.prof
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Coverage
+*.cover
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.sample
+**/secrets/
+
+# GoLand / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+
 # OS
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+*~
+.history/
 
-# Logs
+# Misc
 *.log
-logs/
+*.pid
+*.tmp
+*.bak
+
+# -----------------------------------------------------------------------------
+#  Stack: rust
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: Rust
+#  Use em projetos com Cargo.toml
+# =============================================================================
+
+# Generated by Cargo
+target/
+**/target/
+Cargo.lock.bak
+
+# Cargo
+**/*.rs.bk
+*.pdb
+
+# Build results
+target/
+target-*/
 
 # IDE
 .idea/
 .vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
 *.swp
 *.swo
+*~
+.history/
 
-# Env
+# Env / secrets
 .env
 .env.local
+!.env.example
+**/secrets/
 
-# Build
-dist/
-build/
+# Coverage
+*.gcov
+*.lcov
+coverage/
+tarpaulin-report.html
+
+# Deps graph
+cargo-deps.png
+
+# -----------------------------------------------------------------------------
+#  Stack: infra-terraform-k8s
+# -----------------------------------------------------------------------------
+# =============================================================================
+#  TEMPLATE: Infrastructure (Terraform / Kubernetes / Ansible)
+#  Use em projetos IaC
+# =============================================================================
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+plan.out
+plan.tfplan
+.terragrunt-cache/
+.terraform-version
+.terraform.d/
+
+# Kubernetes
+kubeconfig*
+*.kubeconfig
+.kube/
+manifests/deployed/
+charts/*/charts/
+charts/*/Chart.lock
+charts/*/requirements.lock
+
+# Helm
+charts/*/charts/
+charts/*/Chart.lock
+charts/*/requirements.lock
+charts/*/values.schema.json
+
+# Ansible
+*.retry
+*.pyc
+__pycache__/
+*.log
+roles/*/files/
+roles/*/vars/
+.ansible/
+.ansible-lint
+inventory/*.yml.local
+
+# Pulumi
+Pulumi.*.yaml
+Pulumi.yaml.lock
+.pulumi/
+pulumi-backend.json
+
+# Vagrant
+.vagrant/
+*.log
+
+# Packer
+*.box
+packer_cache/
+
+# AWS / Cloud creds (already in global, but reinforce)
+**/.aws/credentials
+**/.aws/config
+**/gcp-credentials.json
+**/azure-credentials.json
+**/service-account*.json
+
+# Docker
+docker-compose.override.yml
+Dockerfile.*.tmp
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
