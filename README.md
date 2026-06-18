@@ -1,61 +1,62 @@
-# Moises Costa — Finish-Him
+<div align="center">
 
-> **AI Engineer & Full-Stack Developer** | Rio de Janeiro, Brasil  
-> Analista TI — DTIC/DETRAN-RJ (desde 2014) | MSC Company  
-> 12+ anos de experiencia · Especialista em AI Agents em producao (3+ anos)
+# Moisés Costa
 
----
+### Engenheiro de IA Sênior · Especialista em Agentes de IA, RAG e LLMs em produção
 
-## O que eu construo
+**Rio de Janeiro, Brasil** 🇧🇷 · Fundador da [MSC Company](https://github.com/Msc-Company-Org)
 
-Agentes autonomos de IA com memoria, ferramentas e deploy em producao. Stack: **Python (FastAPI, LangChain, LangGraph) + TypeScript (Next.js 15, tRPC, Drizzle)**, rodando em **Docker** com **Supabase**, **Vercel**, **Neon** e **GCP**.
+[![GitHub Follow](https://img.shields.io/github/followers/Finish-Him?label=seguir&style=social)](https://github.com/Finish-Him)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Finish--him-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Finish-him)
 
-### Destaques
-
-| Projeto | Descricao | Stack |
-|---------|-----------|-------|
-| **[Atlas v2](https://github.com/Finish-Him/atlas-v2)** | Agente RAG com WhatsApp, Vercel UI e API propria | TypeScript, Evolution API, pgvector |
-| **[Memory Bus](https://github.com/Finish-Him/memory-bus)** | Camada de memoria semantica compartilhada para AI agents | FastAPI, pgvector, hybrid search |
-| **[MSC Academy](https://github.com/Msc-Company-Org/Academy)** | Plataforma educacional com tutor IA | Next.js 15, AI tutoring |
-| **[Portal Detran-RJ](https://github.com/Detran-RJ/portal-detran)** | Portal unificado da infraestrutura de TI | Next.js 15, shadcn/ui |
-| **[Pi](https://github.com/Finish-Him/pi)** | AI agent toolkit: CLI, LLM API unificada, TUI, Web UI | TypeScript, vLLM |
-
-### Organizacoes
-
-- **[Finish-Him](https://github.com/Finish-Him)** — Projetos pessoais e ferramentas de AI (11 repos)
-- **[Detran-RJ](https://github.com/Detran-RJ)** — Infraestrutura e sistemas da DTIC (4 repos)
-- **[MSC Company](https://github.com/Msc-Company-Org)** — Consultoria e produtos (18 repos)
+</div>
 
 ---
 
-## Stack
+Construo **agentes de IA que rodam em produção** — com memória, ferramentas, controle de custo e observabilidade. Não protótipo de slide: sistemas que aguentam usuário real, orçamento real e SLA real.
 
-```
-AI/LLM     Claude · GPT · DeepSeek · Gemini · OpenRouter · HuggingFace
-Backend    Python · FastAPI · LangChain · LangGraph · BAML
-Frontend   TypeScript · Next.js 15 · React · tRPC · Drizzle ORM
-Infra      Docker · Supabase · Vercel · Neon · GCP · PM2 · Ubuntu VPS
-AI Stack   pgvector · embeddings · RAG · LoRA fine-tuning · agent orchestration
+Mais de uma década em tecnologia, hoje focado em **IA aplicada**: roteamento multi-modelo, RAG que não alucina, fine-tuning e a engenharia chata-porém-essencial que separa demo de produto.
+
+```text
+IA / LLM   Agentes autônomos · RAG · roteamento multi-modelo · fine-tuning (LoRA/QLoRA)
+Backend    Python · FastAPI · pgvector · busca híbrida (vetor + BM25 + RRF)
+Frontend   TypeScript · Next.js · React · Tailwind · tRPC · Drizzle
+Infra      Docker · Vercel · Supabase · Hugging Face · VPS Linux
 ```
 
+## 🚀 Em destaque
+
+| Projeto | O que é |
+|---|---|
+| 📘 **[IA em Produção](https://github.com/Finish-Him/ia-em-producao)** | Guia prático, em português, para levar agentes de IA, RAG e LLMs para produção sem quebrar a cara |
+| 🔀 **[llm-router](https://github.com/Msc-Company-Org/llm-router)** | Roteador multi-modelo em Python: fallback em cascata, budget e telemetria de custo/latência |
+| 🧭 **[MSC Operating System](https://github.com/Msc-Company-Org/msc-operating-system)** | Constituição, padrões e referência técnica do ecossistema MSC |
+| 🎨 **[MSC Brand System](https://github.com/Msc-Company-Org/msc-brand-system)** | Design system e identidade visual reutilizável |
+
+## 🧠 No que estou trabalhando
+
+- **Agentes de IA em produção** — roteamento multi-modelo com fallback, RAG híbrido e telemetria ponta a ponta.
+- **RAG em português** — busca híbrida + reranker cross-encoder avaliados com *golden sets* em pt-BR.
+- **Compartilhando o caminho** — destilando o que funciona (e o que custou caro) em guias e ferramentas abertas.
+
+## 📊 GitHub
+
+<div align="center">
+
+![Estatísticas de Moisés Costa](https://github-readme-stats.vercel.app/api?username=Finish-Him&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default)
+
+</div>
+
+## 🤝 Vamos conversar
+
+Trabalho com **consultoria e desenvolvimento de IA aplicada** pela [MSC Company](https://github.com/Msc-Company-Org) — de agentes de atendimento a pipelines de RAG sob medida.
+
+- 🌐 Empresa: **[MSC Company](https://github.com/Msc-Company-Org)**
+- 🤗 Modelos & datasets: **[huggingface.co/Finish-him](https://huggingface.co/Finish-him)**
+- ⭐ Curtiu o trabalho? **[Me siga aqui no GitHub](https://github.com/Finish-Him)** para acompanhar os próximos projetos.
+
 ---
 
-## Em destaque agora (Maio 2026)
-
-- **Atlas v2** — Reranker com HuggingFace + golden questions eval pipeline
-- **Memory Bus** — Client TypeScript para Atlas v2, export HF, Arquimedes populado
-- **Harness** — Pipeline de fine-tuning automatizado com Unsloth + HuggingFace Spaces
-- **Pi** — AI agent toolkit multi-plataforma (CLI + TUI + Slack bot + vLLM)
-
----
-
-## Links
-
-[![GitHub](https://img.shields.io/badge/GitHub-Finish--Him-181717?logo=github)](https://github.com/Finish-Him)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Finish--Him-FFD21E?logo=huggingface)](https://huggingface.co/Finish-Him)
-[![Docker Hub](https://img.shields.io/badge/Docker-finishhim-2496ED?logo=docker)](https://hub.docker.com/u/finishhim)
-[![Top 8 Manus AI](https://img.shields.io/badge/Manus_AI-Top_8_Worldwide-6C3CFF)](https://manus.im)
-
----
-
-> *"Kaizen"* — melhoria continua, um commit de cada vez.
+<div align="center">
+<sub><i>Kaizen</i> — melhoria contínua, um commit de cada vez.</sub>
+</div>
