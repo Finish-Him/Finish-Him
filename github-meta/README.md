@@ -1,40 +1,82 @@
-# Finish-Him `.github` (meta-repo)
+# Governança da conta Finish-Him
 
-Este é o **meta-repo da organização `Finish-Him`** no GitHub.
+Meta-repositório dos projetos pessoais de Moisés Costa. Ele documenta o portfólio técnico da conta e hospeda arquivos comunitários que podem ser herdados por outros repositórios.
 
-Contém configurações compartilhadas que se aplicam a **todos os repos da org**:
+## Visão geral
 
-- **`CODEOWNERS`** (raiz) — define quem revisa PRs por repo (GitHub auto-assign).
+| Item | Definição |
+|---|---|
+| Status | Ativo |
+| Tipo | Governança e índice |
+| Código executável | Não |
+| Repositórios acessíveis na conta | 19 |
+| Organização empresarial | [Msc-Company-Org](https://github.com/Msc-Company-Org) |
+| Organização pública | [Detran-RJ](https://github.com/Detran-RJ) |
 
-## Sobre Finish-Him
+## Projetos por domínio
 
-Organização pessoal/profissional do Moisés Costa para projetos paralelos:
+### Inteligência artificial e conhecimento
 
-- Aplicações OAB (`aprovai`, `aprovai-oab`)
-- Análise de dados / Dota / Polymarket
-- Apostas / banca (`agenda-barber-salao`, `gm-bank-invest`, `sporting-villa`)
-- Portfolio / sites pessoais (`portfolio`, `fast-baterias`, `msc-labs-landing`, `web-starters`)
-- Vaults / conhecimento (`concurso-vault`, `whatsapp-vault`, `atlas-v2`, `awesome-claude-skills`, `ia-em-producao`)
-- Tooling interno (`pi-backup-config`, `msc-ai-playbook`)
+| Repositório | Objetivo |
+|---|---|
+| `atlas-v2` | Agente RAG com WhatsApp |
+| `whatsapp-vault` | Curadoria privada de conversas exportadas |
+| `aprovai` | IA aplicada a concursos |
+| `jarvis` | Assistente pessoal de voz |
+| `polymarket-edge` | Pesquisa e paper trading |
+| `awesome-claude-skills` | Repositório público de terceiros mantido como fork/cópia de referência |
 
-## Setup
+### Portfólio e aplicações
 
-Para usar como `.github` repo oficial no GitHub:
+| Repositório | Objetivo |
+|---|---|
+| `Finish-Him` | Perfil público |
+| `portfolio` | Portfólio sincronizado |
+| `finish-him-showcase` | Projetos demonstrativos |
+| `landing-ia` | Landing profissional |
+| `msc-company-workspace` | Workspace interno MSC |
+| `nextjs-dashboard-app` | Template legado consolidado em `web-starters` |
+| `web-starters` | Starters web reutilizáveis |
+
+### Dados e jogos
+
+| Repositório | Objetivo |
+|---|---|
+| `dota2-analytics` | Dashboard e predição de Dota 2 |
+| `game-meta-db` | Base pessoal de metagame |
+| `poker` | Estudos de estratégia para torneios |
+
+### Ferramentas e governança
+
+| Repositório | Objetivo |
+|---|---|
+| `.github` | Este índice |
+| `workspace-meta` | Estado e auditorias do workspace |
+| `developer-tools` | Dashboards e configurações de desenvolvimento |
+
+## Arquivos comunitários
+
+Quando presentes nos caminhos suportados pelo GitHub, estes arquivos podem definir padrões para repositórios que não possuam configuração própria:
+
+- `CONTRIBUTING.md`;
+- `SECURITY.md`;
+- templates de issue;
+- template de pull request.
+
+`CODEOWNERS` não é herdado a partir do `.github` de uma conta pessoal. Cada projeto que precisar dessa regra deve manter seu próprio arquivo.
+
+## Regras de organização
+
+- produtos empresariais canônicos pertencem à [Msc-Company-Org](https://github.com/Msc-Company-Org);
+- projetos do Detran-RJ pertencem à [Detran-RJ](https://github.com/Detran-RJ);
+- esta conta mantém identidade profissional, experimentos e ferramentas pessoais;
+- novos repositórios devem possuir propósito, estado, execução, segurança e destino claramente documentados.
+
+## Atualização do índice
 
 ```bash
-# 1. Criar repo no GitHub: Finish-Him/.github (public)
-# 2. Push:
-cd /c/Users/Moises\ e\ Naiara/workspace/2-Codigo/Finish-Him/.github
-git remote add origin https://github.com/Finish-Him/.github.git
-git push -u origin main
+gh repo list Finish-Him --limit 100 \
+  --json name,description,isArchived,visibility
 ```
 
-## Estrutura
-
-```
-.github/                  # este repo
-├── CODEOWNERS            # assignment de reviewers
-├── README.md             # este arquivo
-└── (futuro) PULL_REQUEST_TEMPLATE.md
-└── (futuro) workflows/
-```
+Revise este documento quando um projeto for criado, migrado ou arquivado.
